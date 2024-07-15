@@ -1,0 +1,159 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+
+}
+
+#navbar.img{
+    border-radius: 50%; 
+    /*margin-top: -70px;*/
+}
+
+#navbar::before{
+    
+    background-color: #ffffff;
+
+}
+#logo{
+    margin: 10px 10px;
+    padding-left: 10px;
+}
+#logo img{
+    height: 50px;
+    margin: 2px 4px;
+    border-radius: 80px;
+}
+/* ----------------------------------------------------------------------------------------------- */
+
+/* BODY */
+.whole{
+    /* background:linear-gradient(to bottom, #9600ff, #AEBAF8) */
+    overflow:hidden;
+    background:linear-gradient(to bottom,#260080,#000000);
+    margin-left: 30px;
+    font-family: 'Outfit';
+}
+.hello{
+    margin-left: 50px;
+    float: left;
+}
+.hi{
+    margin-top: 150px;
+    margin-left: 125px;
+    line-height: 0.6;
+}
+
+.left{
+    margin-left: 105px;
+    margin-top: -30px;
+}
+
+.water{
+    position: absolute;
+    top: 20%;
+    right: 48%;
+    width: 100vw;
+    height: 100vh;/* Center the watermark */
+    opacity: 0.3; /* Adjust opacity for watermark effect (0 to 1) */
+    z-index: -1; /* Place watermark behind content */
+    margin-top: 65px;
+   
+}
+
+
+
+.vid2 {
+    background-color: rgba(255, 255, 255, 0.2); /* Set background color with transparency */
+    padding: 20px; 
+    color: rgb(255, 255, 255); /* Set text color to white for better contrast */
+    text-align: justify; /* Optional: Center the text within the container */
+    border-radius: 10px;
+    margin-top: 36px;
+    margin-left: 80px;
+    width: 200px;
+    height: 300px;
+    line-height: 1.2;
+    float: right;
+    margin-right: 70px;
+    margin-top: 65px;
+  }
+
+.vid2:hover{
+    box-shadow: 0 0 20px #ffea80;
+}
+
+.vid2.glowing{
+    box-shadow: 0 0 20px #7cffb3;
+}
+
+.vid3 {
+    background-color: rgba(255, 255, 255, 0.2); /* Set background color with transparency */
+    padding: 20px; /* Add some padding around the text */
+    color: rgb(255, 255, 255); /* Set text color to white for better contrast */
+    text-align: justify; /* Optional: Center the text within the container */
+   /* Align the container to the left */
+    border-radius: 10px;
+    margin-top:36px;
+    margin-left: 0px;
+    width: 200px;
+    height: 300px;
+    line-height: 1.2;
+    float: right;
+    margin-top: 65px;
+  }
+  .vid3:hover{
+    box-shadow: 0 0 20px #e043ff;
+  }
+.vid3.glowing{
+    box-shadow: 0 0 20px #e57cff;
+}
+.spanA{
+    color: #ffea80  ;
+    font-size: 80px;
+    text-shadow: 0 0 10px #ffea80;
+
+}
+.spanB{
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    line-height: 1.2;
+}
+.spanc{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #cb71ff;
+    font-size: 40px;
+    line-height: 2.0;
+
+      text-shadow: 
+      0 0 10px #cb71ff;  /* Inner glow */
+     /* Yellow outer glow */
+
+    
+}
+.p{
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+.btn{
+    background-color: #ffffff; /* Adjust background color as desired */
+  color: rgb(0, 0, 0); /* Adjust text color for contrast */
+  padding: 10px 80px; /* Adjust padding for desired button size */
+  font-size: 16px; /* Adjust font size for desired button text size */
+  cursor: pointer; /* Indicate clickable behavior */
+  border: none; /* Remove the border */
+  border-radius: 20px; /* Add optional rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+  transition: background-color 0.2s ease-in-out; /* Optional hover effect */
+  margin-bottom: 300px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.btn:hover{
+    background-color:  #e57cff; 
+    box-shadow: 0 0 20px #ffffff;
+}
